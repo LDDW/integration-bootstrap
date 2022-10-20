@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.button_section_accueil {
+    width: 250px;
+    border: 1px solid black;
+    background : #990000;
+    border-radius: 30px;
+}
+.font_pacifico {
+    font-family: 'Pacifico', cursive;
+}
+.icon_contact {
+    color: #33CBF5;
+}
+.green_color {
+    color: #009900;
+}
+.red_light {
+    background: #990000;
+}
+.red_dark {
+    background: #5C0000;
+}
+
+#accueil h1 {
+    font-size: 50px;
+}
+@media screen and (min-width: 900px) {
+    #accueil h1 {
+        font-size: 100px;
+    }
+}
+
+li {
+    list-style-type: none;
+}
+li>span{
+    font-weight: bold;
+}
+
+#contact ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
